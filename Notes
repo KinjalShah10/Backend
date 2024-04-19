@@ -1,0 +1,39 @@
+How to request and respond from a server to computer or mobile means browsers.
+
+=> we have 2 techies: 1 Express 
+                      2 Mongoose
+
+Express works as a request send and recieve.
+mongoose works as a data-base.
+
+When we visit any url eg. Postman it decides to response us and gives this so anyone would be require to respond us means to listen us.
+
+This is called /:home route.
+/login:login setup.
+
+Means sunne wala kaam hota hai wo express karte hai. 
+
+Requests: get()
+Response: post()
+
+Now to create empty node app :
+Steps: 1 npm init
+       2 now follow the steps comes in terminal.
+
+=>after the json file is made than how to run the index file?
+To run it make a new file index.js we can run it in terminal by writing node index.js
+
+But now how to run it from package.json?
+Here we make script commands in json file.
+
+Add one command in script start:"node index.js"  it is useful when we go to browser.
+
+Now to install express write :
+npm i express in terminal.
+
+---------DEPLOY---------
+whne we deploy our app we dont want to show some sensite info so will install one package again
+ npm i env
+ make a new file.env
+ write a variable in it port one for example
+ now in index or any other file we want this env write simply require('dotenv').config()
