@@ -1,4 +1,5 @@
 require('dotenv').config()
+//dot env is used bcz when we write port it may be free on there system may not so to work with different ports we use dotenv.
 
 const express = require('express') //require module
 //import express from "express" //another style for module 
